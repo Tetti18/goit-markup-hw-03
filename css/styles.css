@@ -150,13 +150,14 @@ letter-spacing: 0.32px;
     background-color: #2e2f42;
     text-align: center;
     column-gap: 48px;
+    padding: 188px 0;
 }
 .titlehero {
     display: flex;
     margin-top: 188px;
     margin-left: 472px;
     margin-right: 472px;
-    width: 496px;
+    max-width: 496px;
     align-items: center;
     color:  #FFF;
       /* Header 1 */
@@ -171,12 +172,14 @@ letter-spacing: 0.32px;
         
 }
 .buttonhero {
-    display: inline-flex;
+    display: block;
     background-color: #4D5AE5;
     margin: 48px 635px 188px 636px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
+    border: none;
     border-radius: 4px;
+    height: 56px;
 }
 .buttonhero:hover,  {
     background-color: #404BBF;
@@ -207,7 +210,7 @@ letter-spacing: 0.32px;
 }
 .vis-hid-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .vis-hid-item {
     width: calc((100% - 24px * 3) / 4)
@@ -378,6 +381,7 @@ letter-spacing: 0.32px;
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .textfooter {
     display: flex;
