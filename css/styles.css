@@ -146,7 +146,7 @@ letter-spacing: 0.32px;
 }
 .titlehero {
     margin: 0 auto;
-    width: 496px;
+    max-width: 496px;
     color:  #FFF;
       /* Header 1 */
         font-size: 56px;
