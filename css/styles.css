@@ -161,11 +161,11 @@ letter-spacing: 0.32px;
 }
 .buttonhero {
     display: block;
-    box-sizing: content-box;
     background-color: #4D5AE5;
     margin-top: 48px;
     padding: 16px 32px;
-    max-width: 169px;
+    min-width: 169px;
+    height: 56px;
     border: none;
     border-radius: 4px;
     margin-left: auto;
