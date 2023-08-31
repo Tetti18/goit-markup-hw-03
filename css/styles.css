@@ -333,7 +333,7 @@ letter-spacing: 0.32px;
     border-top: none;
 
 }
-.portfoilio-item {
+.portfolio-item {
     background-color: #FFFFFF;
     width: calc((100% - 48px) / 3);
 }
