@@ -146,18 +146,16 @@ letter-spacing: 0.32px;
 }
 .titlehero {
     margin: 0 auto;
-    max-width: 496px;
     color:  #FFF;
-      /* Header 1 */
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        /* 107.143% */
-        letter-spacing: 1.12px;
-        text-align: center;
-        background-color: #2e2f42;
-
-        
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    /* 107.143% */
+    letter-spacing: 1.12px;
+    text-align: center;
+    background-color: #2e2f42;
+    max-width: 496px;
 }
 .buttonhero {
     display: block;
@@ -171,7 +169,7 @@ letter-spacing: 0.32px;
     margin-left: auto;
     margin-right: auto;
 }
-.buttonhero:hover,  {
+.buttonhero:hover  {
     background-color: #404BBF;
 }
 .buttonhero:focus {}
