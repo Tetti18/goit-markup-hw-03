@@ -335,8 +335,7 @@ letter-spacing: 0.32px;
 }
 .portfoilio-item {
     background-color: #FFFFFF;
-    width: calc((100% - 24 * 2) / 3);
-
+    width: width: calc((100% - 48px) / 3);
 }
 
 
